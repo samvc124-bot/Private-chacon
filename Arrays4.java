@@ -6,7 +6,7 @@ public class Arrays4 {
         int[] numeros = new int[10];
 
         System.out.println("Introduce 10 números:");
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < numeros.length; i++) {
             numeros[i] = teclado.nextInt();
         }
             for (int x = 0, y = 9; x <= y; x++, y--) {
