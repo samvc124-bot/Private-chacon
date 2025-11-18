@@ -1,12 +1,14 @@
 public class String3 {
     public static void main(String[]args) {
         String cadenainv = "Hola Mundo";
-        char[] carinv = cadenainv.toCharArray();
-            System.out.println(carinv);
-            for (int i=10; i < carinv.length;i--){
-                System.out.println(carinv);
+      int j=0;
+      char [] revertido=new char[cadenainv.length()];
+      for (int i=cadenainv.length()-1;i>=0;i--){
+          revertido[j] =cadenainv.charAt(i);
+          j++;
+
             }
+      System.out.print("Texto original: " + cadenainv + "   Texto revertido: " + String.valueOf(revertido));
         }
     }
-    //investigar como revertir el holamundo
 
