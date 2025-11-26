@@ -41,7 +41,7 @@ public class circunferencias_y_medias {
                     double NotafinRedondeada;
                     if (Notafin - Math.floor(Notafin) > 0.5) {
                         //calculamos la parte decimal de mi variable notafin
-                        //si la decimal es mayor que .5
+                        //si la decimal es myor que .5
                         //redondea hacia arriba
                         NotafinRedondeada = Math.ceil(Notafin);
                     } else {
