@@ -1,15 +1,15 @@
 import java.util.Scanner;
 class Estructurascontrol1 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner teclado = new Scanner(System.in);
         System.out.println("Introduce el año");
-        int año = sc.nextInt();
+        int año = teclado.nextInt();
 
         System.out.println("Introduce el mes");
-        int mes = sc.nextInt();
+        int mes = teclado.nextInt();
 
         System.out.println("Introduce el dia");
-        int dia = sc.nextInt();
+        int dia = teclado.nextInt();
 
 
         if (esFechaValida(año, mes, dia)) {
