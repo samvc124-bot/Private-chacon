@@ -8,7 +8,7 @@ class Examen_1_ejercicio_1 {
         System.out.println("c: Convertir ");
         System.out.println("d: Convertir ");
 
-        System.out.print("Elije una opcion: ")
+        System.out.print("Elije una opcion: ");
 
     }
 }
