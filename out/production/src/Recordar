@@ -1,0 +1,4 @@
+git pull origin master   # Trae cambios del remoto
+git add .                # Prepara tus cambios
+git commit -m "Mensaje"  # Guarda tus cambios localmente
+git push origin master   # Sube tus cambios al remoto
